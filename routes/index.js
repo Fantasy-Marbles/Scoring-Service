@@ -1,7 +1,5 @@
-import express = require('express');
-import ExpressRouter =  express.Router; /* eslint-disable-line */
-
-const Router = new ExpressRouter();
+const express = require('express');
+const router =  express.Router();
 
 /* GET home page. */
 // router.get('/', function(req, res, next) {
